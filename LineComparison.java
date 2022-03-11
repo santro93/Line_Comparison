@@ -42,6 +42,16 @@ public class LineComparison {
 						length1 = (int) Math.sqrt(Math.pow((X4 - X3),2) + Math.pow((Y4 -Y3),2));
 						System.out.println("Length of Line 2 := " + length1);	
 							
-						}
+						
+						if (length > length1) {
+							System.out.println("Length of Line 1 is Greater than length of line 2");	
+											  }
+						else if (length < length1) {
+							System.out.println("Length of Line 2 is Greater than length of line 1");	
+											  }
+						else {
+							System.out.println("Length of Line 1 is Equal to length of line 2");
+											  }
+		}
 	
 }
