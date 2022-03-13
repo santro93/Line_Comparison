@@ -31,7 +31,7 @@ public class LineComparison {
 						System.out.println("Length of Line 1 := " + length);	
 						
 						
-					//  Input from USER for 1st line 
+					//  Input from USER for 2nd line 
 						System.out.println("Enter the  Co-ordinates of 2nd Line");
 							X3 = Var.nextInt();
 							Y3 = Var.nextInt();
